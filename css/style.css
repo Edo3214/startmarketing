@@ -1106,7 +1106,7 @@ a:focus {
 
 #adna img
 {
-  width: 500px;
+  width: 30%;
   height: 380px;
 }
 .info_form form button {
@@ -1138,4 +1138,7 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 768px) {
+  #adna{
+    width:100%;
+}
